@@ -1,0 +1,41 @@
+.create-note {
+    margin-top: 100px;
+    padding-left: 29px;
+    padding-right: 18.5px;
+    display: flex;
+    flex-direction: column;
+
+    .create-content {
+        input {
+
+            margin-bottom: 30px;
+        }
+
+        textarea {
+            margin-bottom: 4px;
+        }
+
+        display: flex;
+        flex-direction: column;
+
+        .remaining-characters {
+            display: flex;
+            justify-content: end;
+
+            &&.error-hint {
+                color: #DC3545;
+            }
+        }
+    }
+
+    .action-buttons {
+        display: flex;
+        margin-top: 25px;
+        margin-left: auto;
+
+        button:first-of-type {
+            margin-right: 15px;
+        }
+    }
+
+}

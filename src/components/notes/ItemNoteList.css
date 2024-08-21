@@ -1,0 +1,27 @@
+.note-item {
+    padding: 20px 25px 20px 68px;
+    background-image: linear-gradient(to right, #6c757d 33%, #fff0 0%);
+    background-position: top;
+    background-size: 6px 1px;
+    background-repeat: repeat-x;
+    cursor: pointer;
+    height: 150px;
+
+    h5 {
+        padding: unset;
+        margin: unset;
+    }
+}
+
+.note-selected {
+    background-color: #f8f9fa;
+    border-left: 4px solid #a193cc;
+    padding-left: 64px;
+}
+
+.delete {
+    font-size: 14px;
+    line-height: 18.2px;
+    color: #dc3545;
+    letter-spacing: -.28px;
+}

@@ -1,0 +1,69 @@
+.edit-note {
+    padding-left: 29px;
+    padding-right: 28.5px;
+    display: flex;
+    flex-direction: column;
+
+    .manage-buttons {
+        display: flex;
+        padding-top: 32px;
+        padding-bottom: 49px;
+
+        button {
+            margin-left: 15px;
+
+            &&:first-of-type {
+                margin-left: auto;
+            }
+        }
+    }
+
+    .edit-header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+
+        .employer-name {
+            font-size: 20px;
+        }
+    }
+
+    .description {
+        font-size: 14px;
+        line-height: 18.2px;
+        letter-spacing: -.28px;
+    }
+
+    .edit-content {
+        textarea {
+            margin-bottom: 4px;
+        }
+
+        display: flex;
+        flex-direction: column;
+
+        .remaining-characters {
+            display: flex;
+            justify-content: end;
+            font-size: 12px;
+            line-height: 18px;
+            letter-spacing: -.24px;
+            margin-bottom: 25px;
+
+            &&.error-hint {
+                color: #DC3545;
+            }
+        }
+    }
+
+    .action-buttons {
+        display: flex;
+        margin-top: 25px;
+        margin-left: auto;
+
+        button:first-of-type {
+            margin-right: 15px;
+        }
+    }
+
+}

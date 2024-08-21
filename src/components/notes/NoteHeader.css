@@ -1,0 +1,53 @@
+div.header {
+    padding: 31px 32px 33px 68px;
+    display: flex;
+    justify-content: space-between;
+
+    .resume {
+        display: flex;
+        white-space: nowrap;
+
+        h4 {
+            text-transform: capitalize;
+            padding-bottom: 7px;
+            padding-top: 2px;
+            margin: 0;
+            font-size: 22px;
+            line-height: 28.6px;
+            letter-spacing: -.44px;
+            text-wrap: nowrap;
+        }
+
+        span.length {
+            margin-top: 2px;
+            width: 36.5px;
+            height: 28.5px;
+            border-radius: 50px;
+            background-color: #f8f9fa;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            margin-left: 10px;
+            margin-right: auto;
+            --bs-badge-padding-x: .65em;
+            --bs-badge-padding-y: .35em;
+            --bs-badge-font-size: .75em;
+            --bs-badge-font-weight: 700;
+            --bs-badge-border-radius: var(--bs-border-radius);
+            padding: var(--bs-badge-padding-y) var(--bs-badge-padding-x);
+            font-size: var(--bs-badge-font-size);
+            font-weight: var(--bs-badge-font-weight);
+            line-height: 1;
+        }
+    }
+
+    div.buttons {
+        button {
+            /* font-weight: bold; */
+            white-space: nowrap;
+            text-transform: capitalize;
+        }
+
+    }
+}
